@@ -1,0 +1,19 @@
+<div class="h-screen w-screen flex bg-blue-100 justify-center items-center">
+  <div
+    class="justify-center items-center flex bg-white shadow-md rounded-md p-16 gap-4"
+  >
+    <button
+      (click)="decrement()"
+      class="rounded-md bg-indigo-600 size-12 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500"
+    >
+      -
+    </button>
+    The count is {{ counter() }}
+    <button
+      (click)="increment()"
+      class="rounded-md bg-indigo-600 size-12 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500"
+    >
+      +
+    </button>
+  </div>
+</div>
