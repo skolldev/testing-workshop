@@ -24,7 +24,7 @@
       <li>
         {{ todo }}
         <button
-          aria-label="Clear"
+          attr.aria-label="{{ 'Remove ' + todo }}"
           (click)="remove(index)"
           class="rounded-full bg-indigo-600 size-6 text-white"
         >
